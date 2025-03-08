@@ -2,7 +2,7 @@ import librosa
 import numpy as np
 
 # Load the song (same as before)
-file_path = '/Users/omeratia/Desktop/AI music project/datasets/Drake - Don’t Run.mp3'
+file_path = '/Users/omeratia/Desktop/AI music project/datasets/Found - Zach Webb.mp3'
 y, sr = librosa.load(file_path)
 
 # --- Feature 1: Tempo (Beats per Minute) ---
