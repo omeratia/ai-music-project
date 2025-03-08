@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the audio file
-file_path = '../datasets/Drake - Don’t Run.mp3'
+file_path = '/Users/omeratia/Desktop/AI music project/datasets/Into The Deep - Emmit Fenn.mp3'
 y, sr = librosa.load(file_path)
 
 # Print some basic song info
@@ -19,7 +19,7 @@ plt.figure(figsize=(14, 8))
 # ==========================
 plt.subplot(1, 2, 1)  # 1 row, 2 columns, this is plot 1
 librosa.display.waveshow(y, sr=sr)
-plt.title('Waveform - Drake - Don’t Run')
+plt.title('Waveform Into The Deep')
 plt.xlabel('Time (seconds)')
 plt.ylabel('Amplitude')
 
